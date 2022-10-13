@@ -1,0 +1,19 @@
+.groupViewList {
+    background-color: #f6f6f8;
+    width: 200px;
+    height: fit-content;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    margin-right: 25px;
+    border-radius: 10px;
+}
+.groupViewList:last-of-type {
+    margin-right: 0;
+}
+
+.groupViewList__title {
+    color: #c60021;
+    text-align: center;
+    text-transform: capitalize;
+}

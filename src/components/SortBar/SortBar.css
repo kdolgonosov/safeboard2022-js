@@ -1,0 +1,43 @@
+.sortBar {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-bottom: 25px;
+}
+
+.sortBar__button {
+    background-color: #f6f6f8;
+    border: 0;
+    height: 35px;
+    width: 200px;
+    border-radius: 8px;
+}
+.sortBar__button_type_asc,
+.sortBar__button_type_desc {
+    background-color: #c60021;
+    color: #f6f6f8;
+    font-weight: 600;
+}
+.sortBar__button_type_asc::after {
+    content: '';
+    position: absolute;
+    background-image: url(../../images/sort-asc.png);
+    background-size: contain;
+    width: 18px;
+    height: 18px;
+}
+.sortBar__button_type_desc::after {
+    content: '';
+    position: absolute;
+    background-image: url(../../images/sort-desc.png);
+    background-size: contain;
+    width: 18px;
+    height: 18px;
+}
+.sortBar__button:hover {
+    cursor: pointer;
+    opacity: 0.8;
+}

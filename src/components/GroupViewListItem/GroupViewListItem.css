@@ -1,0 +1,18 @@
+.groupViewListItem {
+    background-color: #e3e3e3;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+}
+
+.groupViewListItem__name {
+    margin: 0;
+    font-weight: 600;
+}
+
+.groupViewListItem__position {
+    margin: 0;
+}

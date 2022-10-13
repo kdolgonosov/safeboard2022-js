@@ -1,0 +1,33 @@
+.cardsViewItem {
+    width: 150px;
+    height: 200px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    background-color: #f6f6f8;
+    border-radius: 15px;
+}
+
+.cardsViewItem__name {
+    margin: 0;
+    font-weight: 600;
+    color: #c60021;
+}
+
+.cardsViewItem__photo {
+    background-image: url(../../images/user.png);
+    background-size: cover;
+    width: 70px;
+    height: 70px;
+}
+
+.cardsViewItem__department {
+    margin: 0;
+}
+
+.cardsViewItem__phone {
+    margin: 0;
+}

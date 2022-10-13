@@ -1,0 +1,4 @@
+.groupView {
+    display: flex;
+    flex-direction: row;
+}
