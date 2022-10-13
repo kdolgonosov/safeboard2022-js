@@ -1,7 +1,7 @@
 import './App.css';
 import { Switch, Route } from 'react-router-dom';
-import Greetings from './Greetings/Greetings';
-import Users from './Users/Users';
+import Greetings from '../Greetings/Greetings';
+import Users from '../Users/Users';
 
 function App() {
     return (
